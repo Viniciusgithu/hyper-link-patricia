@@ -59,23 +59,23 @@ ul li {
   transition: background 0.5s;
   width: 350px;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
-
-
-ul li:nth-last-child(2){
-  text-decoration: line-through;
-}
-ul li:last-child {
-  text-decoration: line-through;
 }
 
 ul li:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
+}
+
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  gap: 5px;
+}
+
+ul li a i {
+  color: var(--surface-color-hover);
 }
 
 .container {
@@ -99,7 +99,7 @@ ul li:hover {
 }
 
 .switch {
-  margin: 8px;
+  margin: 15px;
   position: relative;
   width: 64px;
 }
