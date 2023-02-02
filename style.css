@@ -35,7 +35,6 @@ body {
 
 a {
   text-decoration: none;
- 
 }
  
 ul {
@@ -60,6 +59,7 @@ ul li {
   width: 350px;
   text-align: center;
 }
+
 
 ul li:hover {
   background: var(--surface-color-hover);
@@ -141,9 +141,14 @@ ul li a i {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 20px;
   padding: 24px 0;
   font-size: 30px;
+}
+
+.social-media a {
+  color: var(--text-color);
+  font-size: 15px;
 }
 
 
